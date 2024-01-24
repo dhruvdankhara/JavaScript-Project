@@ -5,8 +5,7 @@ async function getQuote(){
     const url = "https://api.quotable.io/random";
     let response = await fetch(url);
     let data = await response.json();
-    p.innerText = data.content;
-    // console.log(data.content);
+    p.innerText = `"${data.content}"`;
 }
 
 btn.addEventListener("click", getQuote);

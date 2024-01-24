@@ -9,8 +9,8 @@
     text-align: center;
     vertical-align: middle;
     display: grid;
-    /* justify-content: space-evenly; */
     justify-content: center;
+    text-align: center;
 }
 
 .title{
@@ -39,7 +39,6 @@ h1{
     height: auto;
     background-color: #57A773;
     border-radius: 10px;
-    /* margin: 30px 0px; */
     padding: 25px;
 }
 
@@ -50,25 +49,50 @@ p{
     color: #fff;
 }
 
-.copy{
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 180px;
+    color: white;
+    font-size: 12px;
+    background-color: #192733;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+  }
+  
+#top {
+    top: -40px;
+    left: -85%;
+}
+  
+.copy {
     width: 65px;
     height: 28px;
-    border-radius: 7px;
-    border: 0.5px solid #000;
+    margin: 40px;
     margin: 20px 0px;
+    padding: 3px;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+    font-family: Arial;
+    font-size: 12px;
+    display: inline-block;
     text-align: center;
     cursor: pointer;
 }
 
 #btn{
     width: 150px;
-    height: 47px;
+    height: 33px;
     color: #fff;
     background: #2C4251;
-    margin: 0px 0px 20px 0px;
+    margin: 30px 0px 20px 0px;
+    position: relative;
+    left: 31%;
     border: none;
     border-radius: 7px;
-    font-size: 20px;
+    font-size:17px;
     font-weight: 400;
     cursor: pointer;
 }

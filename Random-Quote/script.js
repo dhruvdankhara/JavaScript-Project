@@ -2,6 +2,13 @@ let btn = document.querySelector("#btn");
 let copy = document.querySelector(".copy");
 let p = document.querySelector("p");
 
+function showToolTip() {
+    let toolTip = document.querySelector(".tooltip-text");
+    toolTip.style.visibility = 'visible';
+    setTimeout(function () {
+        toolTip.style.visibility = 'hidden';
+    }, 2000);
+}
 
 async function getQuote(){
     const url = "https://api.quotable.io/random";
@@ -14,10 +21,13 @@ async function getQuote(){
     }
     
     copy.addEventListener("click", copyToClipboard(data.content));
-
+    
 }
 
 btn.addEventListener("click", getQuote);
+
+copy.addEventListener("click", showToolTip)
+
 
 
 

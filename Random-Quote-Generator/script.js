@@ -15,17 +15,12 @@ async function getQuote(){
     let response = await fetch(url);
     let data = await response.json();
     p.innerText = `"${data.content}"`;
-
-    const copyToClipboard = (content) => {
-        return navigator.clipboard.writeText(content);
-    }
-    
-    copy.addEventListener("click", copyToClipboard(data.content));
-    
 }
 
+copy.addEventListener("click", () => {
+    return navigator.clipboard.writeText(p.innerText);
+});
 btn.addEventListener("click", getQuote);
-
 copy.addEventListener("click", showToolTip)
 
 

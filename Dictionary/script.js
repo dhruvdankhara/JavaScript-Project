@@ -1,16 +1,19 @@
-const url = 'https://translated-mymemory---translation-memory.p.rapidapi.com/get?langpair=en%7Cit&q=Hello%20World!&mt=1&onlyprivate=0&de=a%40b.c';
+const url = 'https://shakespeare.p.rapidapi.com/shakespeare.json?text=You%20asked%20Mr.%20Weasely%20to%20do%20magic!';
 const options = {
 	method: 'GET',
 	headers: {
+		'X-FunTranslations-Api-Secret': '<REQUIRED>',
 		'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
-		'X-RapidAPI-Host': 'translated-mymemory---translation-memory.p.rapidapi.com'
+		'X-RapidAPI-Host': 'shakespeare.p.rapidapi.com'
 	}
 };
+
+
 
 async function getData(url,options){
     try {
         const response = await fetch(url, options);
-        const result = await response.json();
+        const result = await response.text();
         console.log(result);
     } catch (error) {
         console.error(error);

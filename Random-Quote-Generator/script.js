@@ -14,16 +14,16 @@ async function getQuote(){
     const url = "https://api.quotable.io/random";
     let response = await fetch(url);
     let data = await response.json();
-    p.innerText = `"${data.content}"`;
+    p.innerText = `“${data.content}“`;
 }
 
 copy.addEventListener("click", () => {
     return navigator.clipboard.writeText(p.innerText);
-});
+ });
 btn.addEventListener("click", getQuote);
 copy.addEventListener("click", showToolTip)
 
-
+getQuote();
 
 
 // fetch("https://api.quotable.io/random")

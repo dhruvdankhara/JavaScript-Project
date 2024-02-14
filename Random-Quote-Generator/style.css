@@ -7,7 +7,7 @@
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,7 +15,6 @@
 }
 
 .box {
-    /* background-color: red; */
     width: 30%;
 }
 
@@ -30,10 +29,10 @@ p {
 
 .btn {
     width: auto;
-    border-radius: 7px;
-    border: none;
     background-color: #0075FF;
+    border-radius: 7px;
     padding: 8px;
+    cursor: pointer;
 }
 
 .btn a {

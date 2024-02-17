@@ -30,6 +30,7 @@ p {
 .btn {
     width: auto;
     background-color: #0075FF;
+    border: none;
     border-radius: 7px;
     padding: 8px;
     cursor: pointer;

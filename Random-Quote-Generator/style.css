@@ -41,3 +41,21 @@ p {
     color: #fff;
     font-weight: 300;
 }
+
+@media (max-width: 850px) and (min-width:651px){
+    .box {
+        width: 40%;
+    }
+}
+
+@media (max-width: 650px) and (min-width:451px) {
+    .box {
+        width: 60%;
+    }
+}
+
+@media (max-width: 450px) {
+    .box {
+        width: 80%;
+    }
+}

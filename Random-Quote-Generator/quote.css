@@ -146,11 +146,9 @@ hr {
     background-color: #0047ff;
 }
 
-@media (max-width:525px) {
-    .quote{
-        font-size: 1.5rem;
-    }
+/* @media (max-width:525px) { */
 
+/* 
     .profile img {
         width: 1.5rem;
     }
@@ -161,6 +159,47 @@ hr {
 
     .bottom .icon-box{
         flex-direction: column;
+    } */
+/* } */
+
+
+@media (max-width: 850px) and (min-width:651px){
+    .box {
+        width: 40%;
+    }
+    .quote{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 650px) and (min-width:451px) {
+    .box {
+        width: 60%;
+    }
+    .quote{
+        font-size: 1.5rem;
+    }
+    .profile img {
+        width: 1.5rem;
+    }
+
+    .profile p {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .box {
+        width: 80%;
+    }
+    .quote{
+        font-size: 1.2rem;
+    }
+    .profile img {
+        width: 1.4rem;
+    }
+    .profile p {
+        font-size: .7rem;
     }
 }
 

@@ -11,7 +11,8 @@ This are the
 
 3. To Do List App : <br>
 [Code](https://github.com/dhruvdankhara/JavaScript-Project/tree/main/To-Do-list-app)<br>
-[Live Demo](https://javascript-project-one.vercel.app/To-Do-list-app/index.html)<br>
+<a href="https://javascript-project-one.vercel.app/To-Do-list-app/index.html" target="_blank">Live Demo</a>
+<br>
 
 ## More Project Will Upload soon!
  

@@ -25,7 +25,8 @@ This is a basic to-do list application created using JavaScript and styled with 
 
 ## Usage
 
-1. [Click here](https://javascript-project-one.vercel.app/To-Do-list-app/index.html) to see  the app in action.
+1. <a href="https://javascript-project-one.vercel.app/To-Do-list-app/index.html" target="_blank">Live Demo</a>
+ to see  the app in action.
 2. Enter a task in the input field and press Enter or click the "Add Task" button to add it to the list.
 3. To mark a task as completed, click on the task.
 4. To edit task click on pencil icon. Make your changes and then click on add task button or press Enter to save the edits.
@@ -33,7 +34,8 @@ This is a basic to-do list application created using JavaScript and styled with 
 
 ## Installation
 
-There's no installation required for this app. Simply [Click Here](https://javascript-project-one.vercel.app/To-Do-list-app/index.html) for Live demo.
+There's no installation required for this app. Simply <a href="https://javascript-project-one.vercel.app/To-Do-list-app/index.html" target="_blank">Live Demo</a>
+  for Live demo.
 
 ## Contributing
 

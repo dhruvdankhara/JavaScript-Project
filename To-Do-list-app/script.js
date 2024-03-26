@@ -14,7 +14,6 @@ function saveData() {
 function getData() {
     let oldTasks = localStorage.getItem('data');
     list.innerHTML = oldTasks;
-
 }
 
 // add editrd task to list
@@ -40,7 +39,7 @@ function addtask() {
                             <img id="editbtn" class="w-11 h-11 p-3 cursor-pointer hover:bg-slate-200 hover:rounded-xl " src="pen-to-square-regular.svg" alt="">
                             <img id="removebtn" class="w-11 h-11 p-3 cursor-pointer hover:bg-slate-200 hover:rounded-xl" src="trash-can-regular.svg" alt="">
                             </div>`;
-            li.classList = 'flex gap-4 items-center justify-between w-96 pl-3 hover:outline hover:outline-1 hover:rounded-xl hover:outline-slate-400';
+            li.classList = 'flex gap-4 items-center justify-between w-80 sm:w-96 pl-3 hover:outline hover:outline-1 hover:rounded-xl hover:outline-slate-400';
             list.appendChild(li);
         }
     }
